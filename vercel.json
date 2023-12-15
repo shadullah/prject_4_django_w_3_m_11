@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "practice_django_templates/wsgi.py",
+        "src": "project_4/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.11.5" }
       },
@@ -21,7 +21,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "versel_deploymet/wsgi.py"
+        "dest": "project_4/wsgi.py"
       }
     ]
   }
